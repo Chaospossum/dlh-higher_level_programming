@@ -3,6 +3,6 @@
 
 
 def append_write(filename="", text=""):
-    """Appends a string to a file and returns the number of characters added."""
+    """Appends a string to a file and returns number of chars added."""
     with open(filename, "a", encoding="utf-8") as f:
         return f.write(text)
